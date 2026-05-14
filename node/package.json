@@ -1,0 +1,15 @@
+{
+  "name": "atomcode2api",
+  "version": "1.0.0",
+  "description": "AtomCode CodingPlan -> OpenAI compatible API proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "toml": "^3.0.0"
+  }
+}
